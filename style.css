@@ -195,7 +195,41 @@ footer {
 .project-card {
     padding: 20px;
     border: 1px solid #ddd;
-    border-radius: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    background: #fff;
+}
+
+.project-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+}
+
+.project-card.active {
+    border: 1px solid #111;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.project-details {
+    margin-top: 30px;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #fafafa;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.05);
+}
+
+.project-details.hidden {
+    display: none;
+}
+
+.project-details h3 {
+    margin-bottom: 12px;
+}
+
+.project-details p {
+    margin-bottom: 10px;
 }
 
 /* Mobile */
