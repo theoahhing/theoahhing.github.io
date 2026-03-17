@@ -73,7 +73,7 @@ footer {
 /* Hero */
 
 .hero {
-    height: 20vh;
+    height: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,17 +85,6 @@ footer {
 
 .hero h2 {
     font-size: 40px;
-}
-
-.hero2 {
-    height: 10vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    background:#111;
-    color: white;
-    text-align: center;
 }
 
 .btn {
