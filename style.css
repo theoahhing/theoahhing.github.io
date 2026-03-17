@@ -29,6 +29,20 @@ footer {
 }
 .logo:hover {cursor: pointer;}
 
+.image-single {
+    width: 60%;
+    height: 60%;
+}
+
+.image-circular {
+    width: 200px;
+    height: 200px;
+
+    border-radius: 50%;   /* makes it circular */
+    object-fit: cover;    /* crops image to fill the circle */
+    object-position: center; /* focuses on middle of image */
+}
+
 /* Navbar */
 
 .nav {
@@ -73,7 +87,7 @@ footer {
 /* Hero */
 
 .hero {
-    height: 30vh;
+    height: 45vh;
     display: flex;
     justify-content: center;
     align-items: center;
